@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Security Guard</string>
+    <string name="doing_well">You are doing pretty well</string>
+    <string name="doing_well_note">We don\'t have any tips for optimizing your security right now.</string>
+    <string name="open_in_store">Open in store</string>
+    <string name="launch_app">Launch app</string>
+    <string name="app_cannot_be_launched">This app cannot be launched</string>
+    <string name="accept">Accept</string>
+    <string name="ignore">Ignore</string>
+    <plurals name="x_security_tips">
+        <item quantity="zero">%d security tips</item>
+        <item quantity="one">%d security tip</item>
+        <item quantity="two">%d security tips</item>
+        <item quantity="few">%d security tips</item>
+        <item quantity="many">%d security tips</item>
+        <item quantity="other">%d security tips</item>
+    </plurals>
+    <string name="system_app">System app</string>
+    <string name="analyzing_device">Analyzing your device &#8230;</string>
+    <string name="app_icon">App icon</string>
+</resources>

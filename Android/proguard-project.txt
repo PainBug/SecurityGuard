@@ -1,0 +1,9 @@
+# Keep line numbers and obfuscate source file names
+-renamesourcefileattribute SourceFile
+-keepattributes SourceFile,LineNumberTable
+
+# Keep generic type information
+-keepattributes Signature
+
+# Preserve annotations for introspection
+-keepattributes *Annotation*

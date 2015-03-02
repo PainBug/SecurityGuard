@@ -1,0 +1,861 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="app_info_com$android$browser">
+        <item>You should not be using the system\'s default browser. It does not receive security updates that regularly and may not be able to provide a state-of-the-art website rendering.</item>
+        <item>Consider using one of the state-of-the-art browsers that come with their own rendering technology. You may take a look at \"Firefox\", \"Opera\" and \"Chrome\".</item>
+    </string-array>
+    <string-array name="app_info_com$android$chrome">
+        <item>You should not opt-in to \"Sign in\" into the app when asked in the beginning &#8212; unless you really want to sync\' all your browser data to your desktop and other mobile devices. Choose \"No thanks\" instead, when asked.</item>
+        <item>You should not let the browser send requests to Google whenever a website cannot be found. To disable this, press the menu button and choose \"Settings\". Then go to \"Privacy\" and uncheck \"Navigation error suggestions\".</item>
+        <item>If you don\'t want every key stroke in the address bar to be sent to Google, you should disable this feature. Press the menu button and choose \"Settings\". Then go to \"Privacy\" and uncheck \"Search and URL suggestions\".</item>
+        <item>Google wants to receive data about every page you visit and potential sites that you may visit afterwards. To prevent this, press the menu button and choose \"Settings\". Then go to \"Privacy\" and uncheck \"Network action predictions\".</item>
+        <item>Unless you want Google to read every web page you visit and before it is sent to you, make sure that this feature is disabled. Press the menu button and choose \"Settings\". Then go to \"Bandwidth management\" and make sure that \"Reduce data usage\" is disabled.</item>
+        <item>Think about using an alternative (and more independent) browser such as \"Firefox\".</item>
+    </string-array>
+    <string-array name="app_info_com$android$settings">
+        <item>Unless you need the location features, you should definitely switch them off. For maps and navigation, you only need GPS location, so consider disabling the other services. To do so, go to \"Location services\" and uncheck \"Google\'s location service\", \"Location &amp; Google search\", and possibly \"GPS satellites\".</item>
+        <item>To make sure that other people, especially those who may have found or stolen your device, cannot read all data from it, you should encrypt your device. To do so, go to \"Security\" and choose \"Encrypt phone\". A screen lock doesn\'t provide that protection.</item>
+        <item>The strongest screen lock method is \"Password\", which is also least convenient. \"PIN\" is faster to type but less secure. However, that level of security is usually enough. \"Pattern\" is still less secure but most convenient.</item>
+        <item>If you decide for \"Pattern\" as your screen lock method, consider using not 4 dots but 5 (5 times as secure), 6 (20 times as secure) or even more dots.</item>
+        <item>You should only download apps from trusted app stores, i.e. Google Play in most cases. Unless you really need to use an alternative app store (or install APK files manually), prevent apps from unknown sources from being installed. To do this, go to \"Security\" and uncheck \"Unknown sources\".</item>
+        <item>Your phone\'s settings, WiFi passwords, etc. can be automatically saved in backups so that you don\'t have to re-enter them when installing on a new device or re-installing after losing your data. But be aware that all these data will be sent to Google severs and saved there. To disable this, go to \"Backup and reset\" and uncheck \"Back up my data\".</item>
+    </string-array>
+    <string-array name="app_info_com$android$vending">
+        <item>You may, from time to time, clear your search history. To do so, open the menu that slides in from the left and go to \"Settings\". Press \"Clear local search history\" then.</item>
+    </string-array>
+    <string-array name="app_info_com$google$android$youtube">
+        <item>If you don\'t want the app to send usage statistics in the background, you should disable this feature. To do so, press the menu button and choose \"Settings\". Then go to \"General\" and uncheck \"Improve YouTube\".</item>
+        <item>Unless you really need it, you should disable the search history in the app. To do so, press the menu button and choose \"Settings\". Then go to \"Search\" and check \"Never remember history\".</item>
+    </string-array>
+	<string-array name="app_info_com$touchtype$swiftkey">
+		<item>@string/category_info_keyboard_1</item>
+	</string-array>
+	<string-array name="app_info_com$google$android$inputmethod$latin">
+		<item>@string/category_info_keyboard_1</item>
+	</string-array>
+	<string-array name="app_info_com$aitype$android">
+		<item>@string/category_info_keyboard_1</item>
+	</string-array>
+	<string-array name="app_info_arrow$myphoto$keyboard">
+		<item>@string/category_info_keyboard_1</item>
+	</string-array>
+	<string-array name="app_info_com$jb$gokeyboard$theme$BestThemes_electriccolor">
+		<item>@string/category_info_keyboard_1</item>
+	</string-array>
+	<string-array name="app_info_com$cootek$smartinputv5">
+		<item>@string/category_info_keyboard_1</item>
+	</string-array>
+	<string-array name="app_info_com$gl$iphone5$keyboard$ios7_theme">
+		<item>@string/category_info_keyboard_1</item>
+	</string-array>
+	<string-array name="app_info_com$jb$gokeyboard$theme$glass_getjar">
+		<item>@string/category_info_keyboard_1</item>
+	</string-array>
+	<string-array name="app_info_com$syntellia$fleksy$kb">
+		<item>@string/category_info_keyboard_1</item>
+	</string-array>
+	<string-array name="app_info_com$fancy$neon$keyboard">
+		<item>@string/category_info_keyboard_1</item>
+	</string-array>
+	<string-array name="app_info_com$jb$gokeyboard$theme$funparis">
+		<item>@string/category_info_keyboard_1</item>
+	</string-array>
+	<string-array name="app_info_com$mobilab$keyboard$galaxy">
+		<item>@string/category_info_keyboard_1</item>
+	</string-array>
+	<string-array name="app_info_com$ikeyboard$theme$petal">
+		<item>@string/category_info_keyboard_1</item>
+	</string-array>
+	<string-array name="app_info_com$jb$gokeyboard$theme$twamericankeyboard">
+		<item>@string/category_info_keyboard_1</item>
+	</string-array>
+	<string-array name="app_info_com$krazymobile$emojismartkeyboard">
+		<item>@string/category_info_keyboard_1</item>
+	</string-array>
+	<string-array name="app_info_com$crazygame$inputmethod$keyboard7">
+		<item>@string/category_info_keyboard_1</item>
+	</string-array>
+	<string-array name="app_info_com$jb$gokeyboard$theme$twflamekeyboard">
+		<item>@string/category_info_keyboard_1</item>
+	</string-array>
+	<string-array name="app_info_com$mah$pink$love$keyboard">
+		<item>@string/category_info_keyboard_1</item>
+	</string-array>
+	<string-array name="app_info_com$jb$gokeyboard$theme$twteddybearkeyboard">
+		<item>@string/category_info_keyboard_1</item>
+	</string-array>
+	<string-array name="app_info_com$crazygame$inputmethod$keyboard6">
+		<item>@string/category_info_keyboard_1</item>
+	</string-array>
+	<string-array name="app_info_com$jb$gokeyboard$theme$tmesupercolor">
+		<item>@string/category_info_keyboard_1</item>
+	</string-array>
+	<string-array name="app_info_com$jb$gokeyboard$theme$tmeluminouskeyboard">
+		<item>@string/category_info_keyboard_1</item>
+	</string-array>
+	<string-array name="app_info_com$jb$gokeyboard$theme$tmekeyboardred">
+		<item>@string/category_info_keyboard_1</item>
+	</string-array>
+	<string-array name="app_info_com$ikeyboard$theme$lavender">
+		<item>@string/category_info_keyboard_1</item>
+	</string-array>
+	<string-array name="app_info_com$crazystudio$emoji$kitkat">
+		<item>@string/category_info_keyboard_1</item>
+	</string-array>
+	<string-array name="app_info_com$jb$gokeyboard$theme$funglowblue">
+		<item>@string/category_info_keyboard_1</item>
+	</string-array>
+	<string-array name="app_info_com$jb$gokeyboard$theme$tmeledkeyboard">
+		<item>@string/category_info_keyboard_1</item>
+	</string-array>
+	<string-array name="app_info_com$jb$gokeyboard$theme$twneonbutterflieskeyboard">
+		<item>@string/category_info_keyboard_1</item>
+	</string-array>
+	<string-array name="app_info_com$jb$emoji$gokeyboard">
+		<item>@string/category_info_keyboard_1</item>
+	</string-array>
+	<string-array name="app_info_com$nuance$swype$dtc">
+		<item>@string/category_info_keyboard_1</item>
+	</string-array>
+	<string-array name="app_info_com$ksmobile$cb">
+		<item>@string/category_info_web_view_wrapper_1</item>
+		<item>@string/category_info_web_view_wrapper_2</item>
+		<item>@string/category_info_web_view_wrapper_3</item>
+	</string-array>
+	<string-array name="app_info_com$UCMobile$intl">
+		<item>@string/category_info_web_view_wrapper_1</item>
+		<item>@string/category_info_web_view_wrapper_2</item>
+		<item>@string/category_info_web_view_wrapper_3</item>
+	</string-array>
+	<string-array name="app_info_mobi$mgeek$TunnyBrowser">
+		<item>@string/category_info_web_view_wrapper_1</item>
+		<item>@string/category_info_web_view_wrapper_2</item>
+		<item>@string/category_info_web_view_wrapper_3</item>
+	</string-array>
+	<string-array name="app_info_com$explore$web$browser">
+		<item>@string/category_info_web_view_wrapper_1</item>
+		<item>@string/category_info_web_view_wrapper_2</item>
+		<item>@string/category_info_web_view_wrapper_3</item>
+	</string-array>
+	<string-array name="app_info_com$mx$browser">
+		<item>@string/category_info_web_view_wrapper_1</item>
+		<item>@string/category_info_web_view_wrapper_2</item>
+		<item>@string/category_info_web_view_wrapper_3</item>
+	</string-array>
+	<string-array name="app_info_acr$browser$barebones">
+		<item>@string/category_info_web_view_wrapper_1</item>
+		<item>@string/category_info_web_view_wrapper_2</item>
+		<item>@string/category_info_web_view_wrapper_3</item>
+	</string-array>
+	<string-array name="app_info_com$uc$browser$en">
+		<item>@string/category_info_web_view_wrapper_1</item>
+		<item>@string/category_info_web_view_wrapper_2</item>
+		<item>@string/category_info_web_view_wrapper_3</item>
+	</string-array>
+	<string-array name="app_info_com$baidu$browser$inter">
+		<item>@string/category_info_web_view_wrapper_1</item>
+		<item>@string/category_info_web_view_wrapper_2</item>
+		<item>@string/category_info_web_view_wrapper_3</item>
+	</string-array>
+	<string-array name="app_info_com$tencent$ibibo$mtt">
+		<item>@string/category_info_web_view_wrapper_1</item>
+		<item>@string/category_info_web_view_wrapper_2</item>
+		<item>@string/category_info_web_view_wrapper_3</item>
+	</string-array>
+	<string-array name="app_info_com$jiubang$browser">
+		<item>@string/category_info_web_view_wrapper_1</item>
+		<item>@string/category_info_web_view_wrapper_2</item>
+		<item>@string/category_info_web_view_wrapper_3</item>
+	</string-array>
+	<string-array name="app_info_com$ghostery$android$ghostery">
+		<item>@string/category_info_web_view_wrapper_1</item>
+		<item>@string/category_info_web_view_wrapper_2</item>
+		<item>@string/category_info_web_view_wrapper_3</item>
+	</string-array>
+	<string-array name="app_info_iron$web$jalepano$browser">
+		<item>@string/category_info_web_view_wrapper_1</item>
+		<item>@string/category_info_web_view_wrapper_2</item>
+		<item>@string/category_info_web_view_wrapper_3</item>
+	</string-array>
+	<string-array name="app_info_explore$web$browser">
+		<item>@string/category_info_web_view_wrapper_1</item>
+		<item>@string/category_info_web_view_wrapper_2</item>
+		<item>@string/category_info_web_view_wrapper_3</item>
+	</string-array>
+	<string-array name="app_info_com$cloudmosa$puffinFree">
+		<item>@string/category_info_web_view_wrapper_1</item>
+		<item>@string/category_info_web_view_wrapper_2</item>
+		<item>@string/category_info_web_view_wrapper_3</item>
+	</string-array>
+	<string-array name="app_info_com$ilegendsoft$mercury">
+		<item>@string/category_info_web_view_wrapper_1</item>
+		<item>@string/category_info_web_view_wrapper_2</item>
+		<item>@string/category_info_web_view_wrapper_3</item>
+	</string-array>
+	<string-array name="app_info_com$uc$browser$hd">
+		<item>@string/category_info_web_view_wrapper_1</item>
+		<item>@string/category_info_web_view_wrapper_2</item>
+		<item>@string/category_info_web_view_wrapper_3</item>
+	</string-array>
+	<string-array name="app_info_com$boatbrowser$free">
+		<item>@string/category_info_web_view_wrapper_1</item>
+		<item>@string/category_info_web_view_wrapper_2</item>
+		<item>@string/category_info_web_view_wrapper_3</item>
+	</string-array>
+	<string-array name="app_info_org$easyweb$browser">
+		<item>@string/category_info_web_view_wrapper_1</item>
+		<item>@string/category_info_web_view_wrapper_2</item>
+		<item>@string/category_info_web_view_wrapper_3</item>
+	</string-array>
+	<string-array name="app_info_com$www4GSpeedUpInternetBrowser">
+	    <item>This browser wrongly claims to provide unique features related to the 4G mobile communications technology.</item>
+		<item>@string/category_info_web_view_wrapper_1</item>
+		<item>@string/category_info_web_view_wrapper_2</item>
+		<item>@string/category_info_web_view_wrapper_3</item>
+	</string-array>
+	<string-array name="app_info_net$fast$web$browser">
+		<item>@string/category_info_web_view_wrapper_1</item>
+		<item>@string/category_info_web_view_wrapper_2</item>
+		<item>@string/category_info_web_view_wrapper_3</item>
+	</string-array>
+	<string-array name="app_info_fastbrowser4g$internetwebexplorer">
+	    <item>This browser wrongly claims to provide unique features related to the 4G mobile communications technology.</item>
+		<item>@string/category_info_web_view_wrapper_1</item>
+		<item>@string/category_info_web_view_wrapper_2</item>
+		<item>@string/category_info_web_view_wrapper_3</item>
+	</string-array>
+	<string-array name="app_info_com$boatgo$browser">
+		<item>@string/category_info_web_view_wrapper_1</item>
+		<item>@string/category_info_web_view_wrapper_2</item>
+		<item>@string/category_info_web_view_wrapper_3</item>
+	</string-array>
+	<string-array name="app_info_easy$browser$classic">
+	    <item>This browser wrongly resembles the more popular \"Internet Explorer\".</item>
+		<item>@string/category_info_web_view_wrapper_1</item>
+		<item>@string/category_info_web_view_wrapper_2</item>
+		<item>@string/category_info_web_view_wrapper_3</item>
+	</string-array>
+	<string-array name="app_info_nu$tommie$inbrowser">
+		<item>@string/category_info_web_view_wrapper_1</item>
+		<item>@string/category_info_web_view_wrapper_2</item>
+		<item>@string/category_info_web_view_wrapper_3</item>
+	</string-array>
+	<string-array name="app_info_com$mx$browser$free$mx100000004981">
+	    <item>This browser wrongly claims to provide unique features related to the 3G mobile communications technology.</item>
+		<item>@string/category_info_web_view_wrapper_1</item>
+		<item>@string/category_info_web_view_wrapper_2</item>
+		<item>@string/category_info_web_view_wrapper_3</item>
+	</string-array>
+	<string-array name="app_info_com$droid$browser2">
+		<item>@string/category_info_web_view_wrapper_1</item>
+		<item>@string/category_info_web_view_wrapper_2</item>
+		<item>@string/category_info_web_view_wrapper_3</item>
+	</string-array>
+	<string-array name="app_info_com$suchangko$simplebrowser">
+	    <item>This browser wrongly resembles the more popular \"Internet Explorer\".</item>
+		<item>@string/category_info_web_view_wrapper_1</item>
+		<item>@string/category_info_web_view_wrapper_2</item>
+		<item>@string/category_info_web_view_wrapper_3</item>
+	</string-array>
+	<string-array name="app_info_com$yandex$browser">
+		<item>@string/category_info_web_view_wrapper_1</item>
+		<item>@string/category_info_web_view_wrapper_2</item>
+		<item>@string/category_info_web_view_wrapper_3</item>
+	</string-array>
+	<string-array name="app_info_mobi$browser$flashfox">
+		<item>@string/category_info_web_view_wrapper_1</item>
+		<item>@string/category_info_web_view_wrapper_2</item>
+		<item>@string/category_info_web_view_wrapper_3</item>
+	</string-array>
+	<string-array name="app_info_com$sth">
+		<item>@string/category_info_web_view_wrapper_1</item>
+		<item>@string/category_info_web_view_wrapper_2</item>
+		<item>@string/category_info_web_view_wrapper_3</item>
+	</string-array>
+	<string-array name="app_info_com$nubelacorp$javelin">
+		<item>@string/category_info_web_view_wrapper_1</item>
+		<item>@string/category_info_web_view_wrapper_2</item>
+		<item>@string/category_info_web_view_wrapper_3</item>
+	</string-array>
+	<string-array name="app_info_com$mx$browser$tablet">
+		<item>@string/category_info_web_view_wrapper_1</item>
+		<item>@string/category_info_web_view_wrapper_2</item>
+		<item>@string/category_info_web_view_wrapper_3</item>
+	</string-array>
+	<string-array name="app_info_com$app$downloadmanager">
+		<item>@string/category_info_web_view_wrapper_1</item>
+		<item>@string/category_info_web_view_wrapper_2</item>
+		<item>@string/category_info_web_view_wrapper_3</item>
+	</string-array>
+	<string-array name="app_info_browser$explore$fast$secure">
+		<item>@string/category_info_web_view_wrapper_1</item>
+		<item>@string/category_info_web_view_wrapper_2</item>
+		<item>@string/category_info_web_view_wrapper_3</item>
+	</string-array>
+	<string-array name="app_info_com$appsverse$photon">
+		<item>@string/category_info_web_view_wrapper_1</item>
+		<item>@string/category_info_web_view_wrapper_2</item>
+		<item>@string/category_info_web_view_wrapper_3</item>
+	</string-array>
+	<string-array name="app_info_com$ninesky$browser">
+		<item>@string/category_info_web_view_wrapper_1</item>
+		<item>@string/category_info_web_view_wrapper_2</item>
+		<item>@string/category_info_web_view_wrapper_3</item>
+	</string-array>
+	<string-array name="app_info_com$uc$addon$processkiller">
+		<item>@string/category_info_web_view_wrapper_1</item>
+		<item>@string/category_info_web_view_wrapper_2</item>
+		<item>@string/category_info_web_view_wrapper_3</item>
+	</string-array>
+	<string-array name="app_info_jp$ddo$pigsty$HabitBrowser">
+		<item>@string/category_info_web_view_wrapper_1</item>
+		<item>@string/category_info_web_view_wrapper_2</item>
+		<item>@string/category_info_web_view_wrapper_3</item>
+	</string-array>
+	<string-array name="app_info_internetexplorer$browser$webexplorer">
+	    <item>This browser wrongly resembles the more popular \"Internet Explorer\".</item>
+		<item>@string/category_info_web_view_wrapper_1</item>
+		<item>@string/category_info_web_view_wrapper_2</item>
+		<item>@string/category_info_web_view_wrapper_3</item>
+	</string-array>
+	<string-array name="app_info_com$jrummy$root$browserfree">
+		<item>@string/category_info_web_view_wrapper_1</item>
+		<item>@string/category_info_web_view_wrapper_2</item>
+		<item>@string/category_info_web_view_wrapper_3</item>
+	</string-array>
+	<string-array name="app_info_com$exsoul">
+		<item>@string/category_info_web_view_wrapper_1</item>
+		<item>@string/category_info_web_view_wrapper_2</item>
+		<item>@string/category_info_web_view_wrapper_3</item>
+	</string-array>
+	<string-array name="app_info_com$fevdev$nakedbrowser">
+		<item>@string/category_info_web_view_wrapper_1</item>
+		<item>@string/category_info_web_view_wrapper_2</item>
+		<item>@string/category_info_web_view_wrapper_3</item>
+	</string-array>
+	<string-array name="app_info_com$asus$browser">
+		<item>@string/category_info_web_view_wrapper_1</item>
+		<item>@string/category_info_web_view_wrapper_2</item>
+		<item>@string/category_info_web_view_wrapper_3</item>
+	</string-array>
+	<string-array name="app_info_com$flynx">
+		<item>@string/category_info_web_view_wrapper_1</item>
+		<item>@string/category_info_web_view_wrapper_2</item>
+		<item>@string/category_info_web_view_wrapper_3</item>
+	</string-array>
+	<string-array name="app_info_com$smartsurfernew">
+		<item>@string/category_info_web_view_wrapper_1</item>
+		<item>@string/category_info_web_view_wrapper_2</item>
+		<item>@string/category_info_web_view_wrapper_3</item>
+	</string-array>
+	<string-array name="app_info_tools$browser$webbrowser">
+		<item>@string/category_info_web_view_wrapper_1</item>
+		<item>@string/category_info_web_view_wrapper_2</item>
+		<item>@string/category_info_web_view_wrapper_3</item>
+	</string-array>
+	<string-array name="app_info_com$baidu$browserhd$inter">
+		<item>@string/category_info_web_view_wrapper_1</item>
+		<item>@string/category_info_web_view_wrapper_2</item>
+		<item>@string/category_info_web_view_wrapper_3</item>
+	</string-array>
+	<string-array name="app_info_com$cloudmosa$puffin">
+		<item>@string/category_info_web_view_wrapper_1</item>
+		<item>@string/category_info_web_view_wrapper_2</item>
+		<item>@string/category_info_web_view_wrapper_3</item>
+	</string-array>
+	<string-array name="app_info_info$guardianproject$browser">
+		<item>@string/category_info_web_view_wrapper_1</item>
+		<item>@string/category_info_web_view_wrapper_2</item>
+		<item>@string/category_info_web_view_wrapper_3</item>
+	</string-array>
+	<string-array name="app_info_com$appfour$wearbrowser">
+	    <item>This browser wrongly resembles the more popular \"Chrome\".</item>
+		<item>@string/category_info_web_view_wrapper_1</item>
+		<item>@string/category_info_web_view_wrapper_2</item>
+		<item>@string/category_info_web_view_wrapper_3</item>
+	</string-array>
+	<string-array name="app_info_com$boatbrowser$tablet">
+		<item>@string/category_info_web_view_wrapper_1</item>
+		<item>@string/category_info_web_view_wrapper_2</item>
+		<item>@string/category_info_web_view_wrapper_3</item>
+	</string-array>
+	<string-array name="app_info_com$browser$nowbasic">
+		<item>@string/category_info_web_view_wrapper_1</item>
+		<item>@string/category_info_web_view_wrapper_2</item>
+		<item>@string/category_info_web_view_wrapper_3</item>
+	</string-array>
+	<string-array name="app_info_com$antivirus">
+		<item>@string/category_info_anti_virus_1</item>
+		<item>@string/category_info_anti_virus_2</item>
+		<item>@string/category_info_anti_virus_3</item>
+		<item>@string/category_info_anti_virus_4</item>
+	</string-array>
+	<string-array name="app_info_com$avira$android">
+		<item>@string/category_info_anti_virus_1</item>
+		<item>@string/category_info_anti_virus_2</item>
+		<item>@string/category_info_anti_virus_3</item>
+		<item>@string/category_info_anti_virus_4</item>
+	</string-array>
+	<string-array name="app_info_com$avast$android$mobilesecurity">
+		<item>@string/category_info_anti_virus_1</item>
+		<item>@string/category_info_anti_virus_2</item>
+		<item>@string/category_info_anti_virus_3</item>
+		<item>@string/category_info_anti_virus_4</item>
+	</string-array>
+	<string-array name="app_info_com$zrgiu$antivirus">
+		<item>@string/category_info_anti_virus_1</item>
+		<item>@string/category_info_anti_virus_2</item>
+		<item>@string/category_info_anti_virus_3</item>
+		<item>@string/category_info_anti_virus_4</item>
+	</string-array>
+	<string-array name="app_info_com$antivirus$tablet">
+		<item>@string/category_info_anti_virus_1</item>
+		<item>@string/category_info_anti_virus_2</item>
+		<item>@string/category_info_anti_virus_3</item>
+		<item>@string/category_info_anti_virus_4</item>
+	</string-array>
+	<string-array name="app_info_com$cleanmaster$security">
+		<item>@string/category_info_anti_virus_1</item>
+		<item>@string/category_info_anti_virus_2</item>
+		<item>@string/category_info_anti_virus_3</item>
+		<item>@string/category_info_anti_virus_4</item>
+	</string-array>
+	<string-array name="app_info_com$qihoo$security">
+		<item>@string/category_info_anti_virus_1</item>
+		<item>@string/category_info_anti_virus_2</item>
+		<item>@string/category_info_anti_virus_3</item>
+		<item>@string/category_info_anti_virus_4</item>
+	</string-array>
+	<string-array name="app_info_com$drweb">
+		<item>@string/category_info_anti_virus_1</item>
+		<item>@string/category_info_anti_virus_2</item>
+		<item>@string/category_info_anti_virus_3</item>
+		<item>@string/category_info_anti_virus_4</item>
+	</string-array>
+	<string-array name="app_info_com$wsandroid$suite">
+		<item>@string/category_info_anti_virus_1</item>
+		<item>@string/category_info_anti_virus_2</item>
+		<item>@string/category_info_anti_virus_3</item>
+		<item>@string/category_info_anti_virus_4</item>
+	</string-array>
+	<string-array name="app_info_com$kms$free">
+		<item>@string/category_info_anti_virus_1</item>
+		<item>@string/category_info_anti_virus_2</item>
+		<item>@string/category_info_anti_virus_3</item>
+		<item>@string/category_info_anti_virus_4</item>
+	</string-array>
+	<string-array name="app_info_com$symantec$mobilesecurity">
+		<item>@string/category_info_anti_virus_1</item>
+		<item>@string/category_info_anti_virus_2</item>
+		<item>@string/category_info_anti_virus_3</item>
+		<item>@string/category_info_anti_virus_4</item>
+	</string-array>
+	<string-array name="app_info_com$psafe$msuite">
+		<item>@string/category_info_anti_virus_1</item>
+		<item>@string/category_info_anti_virus_2</item>
+		<item>@string/category_info_anti_virus_3</item>
+		<item>@string/category_info_anti_virus_4</item>
+	</string-array>
+	<string-array name="app_info_and$anti">
+		<item>@string/category_info_anti_virus_1</item>
+		<item>@string/category_info_anti_virus_2</item>
+		<item>@string/category_info_anti_virus_3</item>
+		<item>@string/category_info_anti_virus_4</item>
+	</string-array>
+	<string-array name="app_info_com$viruskiller$antivirusandroid545">
+		<item>@string/category_info_anti_virus_1</item>
+		<item>@string/category_info_anti_virus_2</item>
+		<item>@string/category_info_anti_virus_3</item>
+		<item>@string/category_info_anti_virus_4</item>
+	</string-array>
+	<string-array name="app_info_com$eset$ems2$gp">
+		<item>@string/category_info_anti_virus_1</item>
+		<item>@string/category_info_anti_virus_2</item>
+		<item>@string/category_info_anti_virus_3</item>
+		<item>@string/category_info_anti_virus_4</item>
+	</string-array>
+	<string-array name="app_info_com$lookout">
+		<item>@string/category_info_anti_virus_1</item>
+		<item>@string/category_info_anti_virus_2</item>
+		<item>@string/category_info_anti_virus_3</item>
+		<item>@string/category_info_anti_virus_4</item>
+	</string-array>
+	<string-array name="app_info_com$ctool$antivirus">
+		<item>@string/category_info_anti_virus_1</item>
+		<item>@string/category_info_anti_virus_2</item>
+		<item>@string/category_info_anti_virus_3</item>
+		<item>@string/category_info_anti_virus_4</item>
+	</string-array>
+	<string-array name="app_info_com$bitdefender$antivirus">
+		<item>@string/category_info_anti_virus_1</item>
+		<item>@string/category_info_anti_virus_2</item>
+		<item>@string/category_info_anti_virus_3</item>
+		<item>@string/category_info_anti_virus_4</item>
+	</string-array>
+	<string-array name="app_info_com$trustlook$antivirus">
+		<item>@string/category_info_anti_virus_1</item>
+		<item>@string/category_info_anti_virus_2</item>
+		<item>@string/category_info_anti_virus_3</item>
+		<item>@string/category_info_anti_virus_4</item>
+	</string-array>
+	<string-array name="app_info_com$pablosoftware$virusscan">
+		<item>@string/category_info_anti_virus_1</item>
+		<item>@string/category_info_anti_virus_2</item>
+		<item>@string/category_info_anti_virus_3</item>
+		<item>@string/category_info_anti_virus_4</item>
+	</string-array>
+	<string-array name="app_info_com$drweb$pro">
+		<item>@string/category_info_anti_virus_1</item>
+		<item>@string/category_info_anti_virus_2</item>
+		<item>@string/category_info_anti_virus_3</item>
+		<item>@string/category_info_anti_virus_4</item>
+	</string-array>
+	<string-array name="app_info_com$qihoo360$mobilesafe">
+		<item>@string/category_info_anti_virus_1</item>
+		<item>@string/category_info_anti_virus_2</item>
+		<item>@string/category_info_anti_virus_3</item>
+		<item>@string/category_info_anti_virus_4</item>
+	</string-array>
+	<string-array name="app_info_com$cleanallvirus$phonecleanvirus">
+		<item>@string/category_info_anti_virus_1</item>
+		<item>@string/category_info_anti_virus_2</item>
+		<item>@string/category_info_anti_virus_3</item>
+		<item>@string/category_info_anti_virus_4</item>
+	</string-array>
+	<string-array name="app_info_com$quickheal$platform">
+		<item>@string/category_info_anti_virus_1</item>
+		<item>@string/category_info_anti_virus_2</item>
+		<item>@string/category_info_anti_virus_3</item>
+		<item>@string/category_info_anti_virus_4</item>
+	</string-array>
+	<string-array name="app_info_com$s$antivirus">
+		<item>@string/category_info_anti_virus_1</item>
+		<item>@string/category_info_anti_virus_2</item>
+		<item>@string/category_info_anti_virus_3</item>
+		<item>@string/category_info_anti_virus_4</item>
+	</string-array>
+	<string-array name="app_info_com$trustgo$mobile$security">
+		<item>@string/category_info_anti_virus_1</item>
+		<item>@string/category_info_anti_virus_2</item>
+		<item>@string/category_info_anti_virus_3</item>
+		<item>@string/category_info_anti_virus_4</item>
+	</string-array>
+	<string-array name="app_info_com$iobit$mobilecare">
+		<item>@string/category_info_anti_virus_1</item>
+		<item>@string/category_info_anti_virus_2</item>
+		<item>@string/category_info_anti_virus_3</item>
+		<item>@string/category_info_anti_virus_4</item>
+	</string-array>
+	<string-array name="app_info_com$zoner$android$antivirus">
+		<item>@string/category_info_anti_virus_1</item>
+		<item>@string/category_info_anti_virus_2</item>
+		<item>@string/category_info_anti_virus_3</item>
+		<item>@string/category_info_anti_virus_4</item>
+	</string-array>
+	<string-array name="app_info_com$lab4apps$antivirus">
+		<item>@string/category_info_anti_virus_1</item>
+		<item>@string/category_info_anti_virus_2</item>
+		<item>@string/category_info_anti_virus_3</item>
+		<item>@string/category_info_anti_virus_4</item>
+	</string-array>
+	<string-array name="app_info_com$androhelm$antivirus$free2">
+		<item>@string/category_info_anti_virus_1</item>
+		<item>@string/category_info_anti_virus_2</item>
+		<item>@string/category_info_anti_virus_3</item>
+		<item>@string/category_info_anti_virus_4</item>
+	</string-array>
+	<string-array name="app_info_com$cm$virus">
+		<item>@string/category_info_anti_virus_1</item>
+		<item>@string/category_info_anti_virus_2</item>
+		<item>@string/category_info_anti_virus_3</item>
+		<item>@string/category_info_anti_virus_4</item>
+	</string-array>
+	<string-array name="app_info_org$antivirus">
+		<item>@string/category_info_anti_virus_1</item>
+		<item>@string/category_info_anti_virus_2</item>
+		<item>@string/category_info_anti_virus_3</item>
+		<item>@string/category_info_anti_virus_4</item>
+	</string-array>
+	<string-array name="app_info_com$nqmobile$antivirus20">
+		<item>@string/category_info_anti_virus_1</item>
+		<item>@string/category_info_anti_virus_2</item>
+		<item>@string/category_info_anti_virus_3</item>
+		<item>@string/category_info_anti_virus_4</item>
+	</string-array>
+	<string-array name="app_info_com$bitdefender$security">
+		<item>@string/category_info_anti_virus_1</item>
+		<item>@string/category_info_anti_virus_2</item>
+		<item>@string/category_info_anti_virus_3</item>
+		<item>@string/category_info_anti_virus_4</item>
+	</string-array>
+	<string-array name="app_info_de$security$mobile">
+		<item>@string/category_info_anti_virus_1</item>
+		<item>@string/category_info_anti_virus_2</item>
+		<item>@string/category_info_anti_virus_3</item>
+		<item>@string/category_info_anti_virus_4</item>
+	</string-array>
+	<string-array name="app_info_com$antivirus$virusscan">
+		<item>@string/category_info_anti_virus_1</item>
+		<item>@string/category_info_anti_virus_2</item>
+		<item>@string/category_info_anti_virus_3</item>
+		<item>@string/category_info_anti_virus_4</item>
+	</string-array>
+	<string-array name="app_info_com$sophos$smsec">
+		<item>@string/category_info_anti_virus_1</item>
+		<item>@string/category_info_anti_virus_2</item>
+		<item>@string/category_info_anti_virus_3</item>
+		<item>@string/category_info_anti_virus_4</item>
+	</string-array>
+	<string-array name="app_info_com$pandasecurity$pandaav">
+		<item>@string/category_info_anti_virus_1</item>
+		<item>@string/category_info_anti_virus_2</item>
+		<item>@string/category_info_anti_virus_3</item>
+		<item>@string/category_info_anti_virus_4</item>
+	</string-array>
+	<string-array name="app_info_jp$naver$lineantivirus$android">
+		<item>@string/category_info_anti_virus_1</item>
+		<item>@string/category_info_anti_virus_2</item>
+		<item>@string/category_info_anti_virus_3</item>
+		<item>@string/category_info_anti_virus_4</item>
+	</string-array>
+	<string-array name="app_info_antivirus$free">
+		<item>@string/category_info_anti_virus_1</item>
+		<item>@string/category_info_anti_virus_2</item>
+		<item>@string/category_info_anti_virus_3</item>
+		<item>@string/category_info_anti_virus_4</item>
+	</string-array>
+	<string-array name="app_info_com$max$gamerantivirus">
+		<item>@string/category_info_anti_virus_1</item>
+		<item>@string/category_info_anti_virus_2</item>
+		<item>@string/category_info_anti_virus_3</item>
+		<item>@string/category_info_anti_virus_4</item>
+	</string-array>
+	<string-array name="app_info_com$androidantivirus">
+		<item>@string/category_info_anti_virus_1</item>
+		<item>@string/category_info_anti_virus_2</item>
+		<item>@string/category_info_anti_virus_3</item>
+		<item>@string/category_info_anti_virus_4</item>
+	</string-array>
+	<string-array name="app_info_com$androhelm$antivirus$free">
+		<item>@string/category_info_anti_virus_1</item>
+		<item>@string/category_info_anti_virus_2</item>
+		<item>@string/category_info_anti_virus_3</item>
+		<item>@string/category_info_anti_virus_4</item>
+	</string-array>
+	<string-array name="app_info_com$drweb$pro$market">
+		<item>@string/category_info_anti_virus_1</item>
+		<item>@string/category_info_anti_virus_2</item>
+		<item>@string/category_info_anti_virus_3</item>
+		<item>@string/category_info_anti_virus_4</item>
+	</string-array>
+	<string-array name="app_info_com$moobila$appriva$av">
+		<item>@string/category_info_anti_virus_1</item>
+		<item>@string/category_info_anti_virus_2</item>
+		<item>@string/category_info_anti_virus_3</item>
+		<item>@string/category_info_anti_virus_4</item>
+	</string-array>
+	<string-array name="app_info_com$comodo$pimsecure">
+		<item>@string/category_info_anti_virus_1</item>
+		<item>@string/category_info_anti_virus_2</item>
+		<item>@string/category_info_anti_virus_3</item>
+		<item>@string/category_info_anti_virus_4</item>
+	</string-array>
+	<string-array name="app_info_com$virusfighter$android">
+		<item>@string/category_info_anti_virus_1</item>
+		<item>@string/category_info_anti_virus_2</item>
+		<item>@string/category_info_anti_virus_3</item>
+		<item>@string/category_info_anti_virus_4</item>
+	</string-array>
+	<string-array name="app_info_com$cyou$security">
+		<item>@string/category_info_anti_virus_1</item>
+		<item>@string/category_info_anti_virus_2</item>
+		<item>@string/category_info_anti_virus_3</item>
+		<item>@string/category_info_anti_virus_4</item>
+	</string-array>
+	<string-array name="app_info_com$zoner$android$antivirus$tablet">
+		<item>@string/category_info_anti_virus_1</item>
+		<item>@string/category_info_anti_virus_2</item>
+		<item>@string/category_info_anti_virus_3</item>
+		<item>@string/category_info_anti_virus_4</item>
+	</string-array>
+	<string-array name="app_info_com$socialnmobile$dictapps$notepad$color_note">
+	    <item>This app has full internet access and may, potentially, send usage data (or even full user data) to servers over the internet.</item>
+	</string-array>
+	<string-array name="app_info_com$google$android$googlequicksearchbox">
+	    <item>The Google apps save extensive logs about your behaviour and send them to servers over the internet. To disable this, open the \"Google settings\" app and choose \"Account History\". Change every item in the list from \"On\" to \"Paused\" to turn off the data collection.</item>
+	    <item>For advertising purposes, apps are already connecting tons of data. To disable profile building that even allows for interest-based ads, open the \"Google settings\" app and choose \"Ads\". Check \"Opt out of interest-based ads\".</item>
+	    <item>Data that is collected for advertising purposes is associated with your unique \"advertising ID\". You should reset this ID regularly. To do so, open the \"Google settings\" app and go to \"Ads\". Press \"Reset advertising ID\".</item>
+	</string-array>
+	<string-array name="app_info_org$mozilla$firefox">
+		<item>@string/category_info_firefox_1</item>
+		<item>@string/category_info_firefox_2</item>
+		<item>@string/category_info_firefox_3</item>
+		<item>@string/category_info_firefox_4</item>
+		<item>@string/category_info_firefox_5</item>
+	</string-array>
+	<string-array name="app_info_org$mozilla$firefox$beta">
+		<item>@string/category_info_firefox_1</item>
+		<item>@string/category_info_firefox_2</item>
+		<item>@string/category_info_firefox_3</item>
+		<item>@string/category_info_firefox_4</item>
+		<item>@string/category_info_firefox_5</item>
+	</string-array>
+	<string-array name="app_info_com$whatsapp">
+		<item>Whenever you read someone\'s message in the app, the sender will be notified through a read receipt, which is shown as blue double-tick. If you want to disable this feature, just press the menu button and go to \"Settings\". Then choose \"Account\" and on the next screen choose \"Privacy\". Uncheck \"Read receipt\".</item>
+		<item>By default, everybody (even strangers) can see when you were online for the last time. In order to hide this piece of information, just press the menu button and go to \"Settings\". Then choose \"Account\" and on the next screen choose \"Privacy\". Set \"Last seen\" to \"Nobody\" (or \"My contacts\").</item>
+		<item>If you want to prevent strangers from seeing your profile photo, you can restrict access to your friends. To do so, go to \"Settings\" and then choose \"Account\". On the next screen, choose \"Privacy\". Set \"Profile photo\" to \"My contacts\".</item>
+		<item>Do you write status messages? If you want to restrict visibility of these messages to your friends, just go to \"Settings\". Then choose \"Account\" and, on the next screen, choose \"Privacy\". Set \"Profile status\" to either \"Nobody\" or \"My contacts\".</item>
+	</string-array>
+	<string-array name="app_info_com$google$android$gm">
+		<item>Photos that are included within an email may be loaded from remote servers over the internet. Whenever you view such a photo, the sender gets to know that you read the email &#8212; and even the precise time when. You prevent this by opening the menu and choosing \"Settings\". Open your account settings (identified by the email address) and change \"Images\" to \"Ask before showing\".</item>
+	</string-array>
+	<string-array name="app_info_com$cm$launcher">
+		<item>@string/category_info_launcher_1</item>
+	</string-array>
+	<string-array name="app_info_com$campmobile$launcher">
+		<item>@string/category_info_launcher_1</item>
+	</string-array>
+	<string-array name="app_info_com$teslacoilsw$launcher">
+		<item>@string/category_info_launcher_1</item>
+	</string-array>
+	<string-array name="app_info_com$gau$go$launcherex">
+		<item>@string/category_info_launcher_1</item>
+	</string-array>
+	<string-array name="app_info_me$everything$launcher">
+		<item>@string/category_info_launcher_1</item>
+	</string-array>
+	<string-array name="app_info_com$google$android$launcher">
+		<item>@string/category_info_launcher_1</item>
+	</string-array>
+	<string-array name="app_info_com$buzzpia$aqua$launcher">
+		<item>@string/category_info_launcher_1</item>
+	</string-array>
+	<string-array name="app_info_com$hola$launcher">
+		<item>@string/category_info_launcher_1</item>
+	</string-array>
+	<string-array name="app_info_com$go$gau$smartscreen">
+		<item>@string/category_info_launcher_1</item>
+	</string-array>
+	<string-array name="app_info_com$gtp$nextlauncher$trial">
+		<item>@string/category_info_launcher_1</item>
+	</string-array>
+	<string-array name="app_info_com$lx$launcher8">
+		<item>@string/category_info_launcher_1</item>
+	</string-array>
+	<string-array name="app_info_ginlemon$flowerfree">
+		<item>@string/category_info_launcher_1</item>
+	</string-array>
+	<string-array name="app_info_com$zeroteam$zerolauncher">
+		<item>@string/category_info_launcher_1</item>
+	</string-array>
+	<string-array name="app_info_com$honeycomb$home">
+		<item>@string/category_info_launcher_1</item>
+	</string-array>
+	<string-array name="app_info_com$anddoes$launcher">
+		<item>@string/category_info_launcher_1</item>
+	</string-array>
+	<string-array name="app_info_com$apusapps$launcher">
+		<item>@string/category_info_launcher_1</item>
+	</string-array>
+	<string-array name="app_info_com$simplelauncher$launcheri6">
+		<item>@string/category_info_launcher_1</item>
+	</string-array>
+	<string-array name="app_info_home$solo$launcher$free">
+		<item>@string/category_info_launcher_1</item>
+	</string-array>
+	<string-array name="app_info_com$jiubang$go$mini$launcher">
+		<item>@string/category_info_launcher_1</item>
+	</string-array>
+	<string-array name="app_info_com$qihoo360$launcher">
+		<item>@string/category_info_launcher_1</item>
+	</string-array>
+	<string-array name="app_info_com$kk$launcher">
+		<item>@string/category_info_launcher_1</item>
+	</string-array>
+	<string-array name="app_info_com$epic$launcher$tw">
+		<item>@string/category_info_launcher_1</item>
+	</string-array>
+	<string-array name="app_info_com$gtp$nextlauncher$theme$gxy4">
+		<item>@string/category_info_launcher_1</item>
+	</string-array>
+	<string-array name="app_info_com$cma$launcher$lite">
+		<item>@string/category_info_launcher_1</item>
+	</string-array>
+	<string-array name="app_info_naveen$Transparent">
+		<item>@string/category_info_launcher_1</item>
+	</string-array>
+	<string-array name="app_info_com$cma$skylauncher$lite">
+		<item>@string/category_info_launcher_1</item>
+	</string-array>
+	<string-array name="app_info_com$ksmobile$launcher">
+		<item>@string/category_info_launcher_1</item>
+	</string-array>
+	<string-array name="app_info_com$tul$aviate">
+		<item>@string/category_info_launcher_1</item>
+	</string-array>
+	<string-array name="app_info_com$l$launcher">
+		<item>@string/category_info_launcher_1</item>
+	</string-array>
+	<string-array name="app_info_com$gau$go$launcherex$theme$vrd$xperia">
+		<item>@string/category_info_launcher_1</item>
+	</string-array>
+	<string-array name="app_info_com$hummer$launcher">
+		<item>@string/category_info_launcher_1</item>
+	</string-array>
+	<string-array name="app_info_com$gtp$nextlauncher$theme$future">
+		<item>@string/category_info_launcher_1</item>
+	</string-array>
+	<string-array name="app_info_com$ios8plus$launcher8hd">
+		<item>@string/category_info_launcher_1</item>
+	</string-array>
+	<string-array name="app_info_com$gtp$nextlauncher$theme$blackglassbygaaan">
+		<item>@string/category_info_launcher_1</item>
+	</string-array>
+	<string-array name="app_info_com$cooeeui$brand$turbolauncher">
+		<item>@string/category_info_launcher_1</item>
+	</string-array>
+	<string-array name="app_info_com$gtp$nextlauncher$theme$rubbergreen">
+		<item>@string/category_info_launcher_1</item>
+	</string-array>
+	<string-array name="app_info_mobi$infolife$launcher2">
+		<item>@string/category_info_launcher_1</item>
+	</string-array>
+	<string-array name="app_info_com$lollipop$launcher">
+		<item>@string/category_info_launcher_1</item>
+	</string-array>
+	<string-array name="app_info_com$doodleapp$launcher">
+		<item>@string/category_info_launcher_1</item>
+	</string-array>
+	<string-array name="app_info_com$gau$go$launcherex$theme$miracle$lamann">
+		<item>@string/category_info_launcher_1</item>
+	</string-array>
+	<string-array name="app_info_com$bonfiremedia$launcher">
+		<item>@string/category_info_launcher_1</item>
+	</string-array>
+	<string-array name="app_info_com$kugoweb$launcher$donut">
+		<item>@string/category_info_launcher_1</item>
+	</string-array>
+	<string-array name="app_info_com$speedlauncherdroid$speeddialer">
+		<item>@string/category_info_launcher_1</item>
+	</string-array>
+	<string-array name="app_info_com$dropbox$android">
+	    <item>You should protect the app with a password so that other people cannot view or delete all your files. To do so, press the menu button and go to \"Settings\". Then check \"Require app passcode\". Choose \"Turn passcode on\" and enter your new password twice.</item>
+	</string-array>
+	<string-array name="app_info_com$google$android$apps$maps">
+	    <item>You may delete your search history from time to time. To do so, open the menu and choose \"Settings\". Go to \"Maps history\" and delete all existing entries, if there are any.</item>
+	</string-array>
+	<string-array name="app_info_com$sec$android$inputmethod">
+	    <item>For advanced suggestions during typing, information about the texts that you type is sent to servers over the internet for analysis. To disable this feature, open the keyboard\'s settings. Then go to \"Predictive text\" and uncheck \"Personalized data\".</item>
+	</string-array>
+	<string-array name="app_info_com$google$android$apps$authenticator2">
+	    <item>@string/category_info_two_factor_auth</item>
+	</string-array>
+	<string-array name="app_info_com$authy$authy">
+	    <item>@string/category_info_two_factor_auth</item>
+	</string-array>
+	<string-array name="app_info_com$android$keepass">
+	    <item>@string/category_info_insecure_clipboard</item>
+	    <item>As long as you use a strong password and correct settings, it is highly unlikely that third parties are able to decrypt your database file. Nevertheless, keep in mind that your database file will be stored in a space that is readable by all apps on your device.</item>
+	    <item>You may improve the protection against certain attacks on your master key. The only downside is that opening your database will take longer. To do so, press the menu button and open \"Settings\". Go to \"Database\" and set \"Key Transformations\" to a value in the range of tens of millions.</item>
+	</string-array>
+</resources>

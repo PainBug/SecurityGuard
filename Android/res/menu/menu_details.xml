@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+	<item
+	    android:id="@+id/action_open_in_store"
+	    android:showAsAction="ifRoom"
+	    android:title="@string/open_in_store"
+	    android:icon="@drawable/ic_ab_settings" />
+	<item
+	    android:id="@+id/action_launch_app"
+	    android:showAsAction="ifRoom"
+	    android:title="@string/launch_app"
+	    android:icon="@drawable/ic_ab_play" />
+</menu>

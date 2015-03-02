@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView
+        android:layout_width="144dp"
+        android:layout_height="144dp"
+        android:src="@drawable/ic_logo_3x_translucent"
+        android:contentDescription="@string/analyzing_device" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/analyzing_device"
+        android:textSize="@dimen/font_size_extra_large"
+        android:textColor="@color/text_color_secondary"
+        android:gravity="center_horizontal" />
+    <ProgressBar
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:indeterminate="true"
+        android:indeterminateOnly="true"
+        android:indeterminateDuration="1200"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="8dp" />
+</merge>

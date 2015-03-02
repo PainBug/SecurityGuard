@@ -1,0 +1,11 @@
+Personal security advisor for your Android device
+
+Security Guard protects you from various security threats, ranging from vulnerabilities in apps and weak privacy control to phony applications and other issues.
+
+This application is <i>not</i> a piece of anti-virus software that wants to scare you so that you spend (more) money on your digital protection.
+
+Instead, it gives you leverage and helps you take your mobile protection into your own hands.
+
+It's important to know that, even with the most expensive apps for mobile security, you don't automatically get perfect protection.
+
+The only chance to be <i>really</i> secure is knowing how things work, adjusting settings and reviewing apps — Security Guard will help you.
